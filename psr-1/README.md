@@ -30,6 +30,7 @@ PHP代码必须只使用UTF-8无BOM.
 “副作用”包括但不限于：产生输出，明确使用的require或include，连接到外部服务，修改INI设置，发出错误或异常，修改全局或静态变量，读取或写入文件，等等.
 
 以下是与双方的声明和副作用的文件的一个例子; 即，如何避免一个例子：
+
 ```
 <?php
 // side effect: change ini settings
@@ -65,7 +66,7 @@ if (! function_exists('bar')) {
     }
 }
 ```
-命名空间和类名
+### 2.命名空间和类名
 命名空间和类必须遵循一个“自动加载” PSR：PSR-0 ，PSR-4 ].
 
 这意味着每个类是在其本身的文件，并且是在至少一个水平的名称空间：一个顶级供应商名称.
@@ -75,7 +76,7 @@ if (! function_exists('bar')) {
 代码PHP 5.3编写，并经过必须使用正式的命名空间.
 
 例如：
-
+```php
 <?php
 // PHP 5.3 and later:
 namespace Vendor\Model;
@@ -83,15 +84,19 @@ namespace Vendor\Model;
 class Foo
 {
 }
-代码5.2.x书面和前应该使用的伪命名空间约定Vendor_前缀的类名.
 ```
+代码5.2.x书面和前应该使用的伪命名空间约定Vendor_前缀的类名.
+
+```php
 <?php
 // PHP 5.2.x and earlier:
 class Vendor_Model_Foo
 {
 }
 ```
-类常量，属性和方法
+
+### 3.类常量，属性和方法
+
 术语“级”指的是所有类，接口和特点.
 
 #### 4.1.常量
