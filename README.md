@@ -51,7 +51,8 @@ loading...
 
 ## PSR原理实现
 
-- [psr4实现](./impl/impl psr4.md)
+- [psr4实现](./impl/impl-psr4.md)
+- [Composer自动加载实现原理](./impl/composer-autoload/composer-impl-how.md)
 
 
 

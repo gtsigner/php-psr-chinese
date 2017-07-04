@@ -37,3 +37,21 @@ FULLY QUALIFIED CLASS NAME	NAMESPACE PREFIX	BASE DIRECTORY	RESULTING FILE PATH
 \Zend\Acl	Zend	/usr/includes/Zend/	/usr/includes/Zend/Acl.php
 ```
 对于符合规范自动加载机的示例实现，请参阅示例文件。实施例的实现必须不能被视为本说明书的一部分，并且可以在任何时间改变。[examples file](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-4-autoloader-examples.md).
+
+
+### 附：
+例子：
+
+1.进入到当前目录
+
+2.composer install
+
+3.进入web server and view(或者直接执行cli,php src/Foo.php)
+```bash
+$ php -S 127.0.0.1:8081 -t ./
+$ curl http://localhost:8081/src/Foo.php
+```
+output
+```text
+Doing work
+```
