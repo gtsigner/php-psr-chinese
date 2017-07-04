@@ -27,7 +27,7 @@ loading.....
 loading.....
 
 
-## PSR已经弃用草案
+## PSR已弃用规范
 
 - [PSR-0: Autoloading Standard](http://www.php-fig.org/psr/psr-0/)
 
