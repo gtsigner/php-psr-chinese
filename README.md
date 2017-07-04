@@ -9,12 +9,11 @@
 - [PSR-4：自动加载规范](./psr-4/README.md)
 
 
-
 loading.....
 
 ##### PSR规范英文版(en)
 
-- [PSR-1: Basic Coding Standard](http://www.php-fig.org/psr/psr-1/)
+- [PSR-1：Basic Coding Standard](http://www.php-fig.org/psr/psr-1/)
 - [PSR-2：Coding Style Guide](http://www.php-fig.org/psr/psr-2/)
 - [PSR-3：Logger Interface](http://www.php-fig.org/psr/psr-3/)
 - [PSR-4：Autoloading Standard](http://www.php-fig.org/psr/psr-4/)
@@ -35,8 +34,8 @@ loading.....
 
 ## PSR Doc Index
 
-- [PSR-0: Autoloading Standard](http://www.php-fig.org/psr/psr-0/)
-- [PSR-1: Basic Coding Standard](http://www.php-fig.org/psr/psr-1/)
+- [PSR-0：Autoloading Standard](http://www.php-fig.org/psr/psr-0/)
+- [PSR-1：Basic Coding Standard](http://www.php-fig.org/psr/psr-1/)
 - [PSR-2：Coding Style Guide](http://www.php-fig.org/psr/psr-2/)
 - [PSR-3：Logger Interface](http://www.php-fig.org/psr/psr-3/)
 - [PSR-4：Autoloading Standard](http://www.php-fig.org/psr/psr-4/)
@@ -51,3 +50,12 @@ loading...
 
 
 ## PSR原理实现
+
+- [psr4实现](./impl/impl psr4.md)
+
+
+
+
+## 资料来源与参考
+- https://github.com/php-fig/fig-standards
+- http://www.php-fig.org
