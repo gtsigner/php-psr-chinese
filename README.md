@@ -1,31 +1,39 @@
-### PSR公认规范
+## PSR公认规范总结
 
-PSR规范中文版(大部分来源google翻译)
-
+##### PSR规范中文版(大部分来源google翻译)(cn)
+部分psr包含例子，附录包含了一些规范的实现
 
 - [PSR-1：基本编码标准](./psr-1/README.md)
 - [PSR-2：编码风格指南](./psr-2/README.md)
+- [PSR-3：日志接口规范](./psr-3/README.md)
+- [PSR-4：自动加载规范](./psr-4/README.md)
+
+
 
 loading.....
 
-PSR规范英文版
+##### PSR规范英文版(en)
 
 - [PSR-1: Basic Coding Standard](http://www.php-fig.org/psr/psr-1/)
 - [PSR-2：Coding Style Guide](http://www.php-fig.org/psr/psr-2/)
+- [PSR-3：Logger Interface](http://www.php-fig.org/psr/psr-3/)
+- [PSR-4：Autoloading Standard](http://www.php-fig.org/psr/psr-4/)
+- [PSR-6：Caching Interface](http://www.php-fig.org/psr/psr-6/)
+- [PSR-7：HTTP Message Interface](http://www.php-fig.org/psr/psr-7/)
 
 loading.....
 
-### PSR未使用草案
+## PSR未使用草案
 
 loading.....
 
 
-### PSR已经弃用草案
+## PSR已经弃用草案
 
 - [PSR-0: Autoloading Standard](http://www.php-fig.org/psr/psr-0/)
 
 
-### PSR Doc Index
+## PSR Doc Index
 
 - [PSR-0: Autoloading Standard](http://www.php-fig.org/psr/psr-0/)
 - [PSR-1: Basic Coding Standard](http://www.php-fig.org/psr/psr-1/)
@@ -40,3 +48,6 @@ loading.....
 - [PSR-10：Security Reporting Process](http://www.php-fig.org/psr/psr-10/)
 
 loading...
+
+
+## PSR原理实现

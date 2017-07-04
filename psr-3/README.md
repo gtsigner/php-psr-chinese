@@ -105,7 +105,7 @@ class Foo
 
 2.composer install
 
-3.进入web server and view
+3.进入web server and view(或者直接执行cli,php test.php)
 ```bash
 $ php -S 127.0.0.1:8081 -t ./
 $ curl http://localhost:8081/test.php

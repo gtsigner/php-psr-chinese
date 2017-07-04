@@ -29,13 +29,8 @@ class Foo
     {
         if ($this->logger) {
             $this->logger->info('Doing work');
-            echo 1;
         }
-        $this->logger->info("1");
-        // do something useful
     }
 }
-
-$foo = new Foo();
-new LogImpl();
+$foo = new Foo(new LogImpl());
 $foo->doSomething();
